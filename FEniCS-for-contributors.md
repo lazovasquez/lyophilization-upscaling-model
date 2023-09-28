@@ -19,3 +19,8 @@ Warning: FEniCS Anaconda recipes are maintained by the community and distributed
 Update. 2017.2.0 release on conda-forge features MUMPS direct solver, but lacks SuperLU_dist and MPI-enabled HDF5.
 
 https://fenicsproject.org/download/archive/
+
+
+1     python -m pip install numpy
+2     python -m pip install scipy
+3     python -m pip install matplotlib
