@@ -1,0 +1,21 @@
+FEniCS on Anaconda
+To use our prebuilt Anaconda Python packages (Linux and Mac only), first install Anaconda, then run following commands in your terminal:
+
+conda create -n fenicsproject -c conda-forge fenics
+source activate fenicsproject
+
+# To activate this environment, use
+#
+#     $ conda activate fenicsproject
+#                     
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+For further information on using Anaconda, see the documentation.
+
+Warning: FEniCS Anaconda recipes are maintained by the community and distributed binary packages do not have a full feature set yet, especially regarding sparse direct solvers and input/output facilities.
+
+Update. 2017.2.0 release on conda-forge features MUMPS direct solver, but lacks SuperLU_dist and MPI-enabled HDF5.
+
+https://fenicsproject.org/download/archive/
