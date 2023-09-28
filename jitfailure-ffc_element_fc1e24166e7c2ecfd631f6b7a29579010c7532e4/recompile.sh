@@ -1,0 +1,3 @@
+#!/bin/bash
+# Execute this file to recompile locally
+c++ -Wall -shared -fPIC -std=c++11 -O2 -I/Users/davidvasquez/opt/anaconda3/envs/fenicsproject/include -I/Users/davidvasquez/opt/anaconda3/envs/fenicsproject/.cache/dijitso/include ffc_element_fc1e24166e7c2ecfd631f6b7a29579010c7532e4.cpp -L/Users/davidvasquez/opt/anaconda3/envs/fenicsproject/.cache/dijitso/lib -Wl,-rpath,/Users/davidvasquez/opt/anaconda3/envs/fenicsproject/.cache/dijitso/lib -Wl,-install_name,/Users/davidvasquez/opt/anaconda3/envs/fenicsproject/.cache/dijitso/lib/libdijitso-ffc_element_fc1e24166e7c2ecfd631f6b7a29579010c7532e4.so -olibdijitso-ffc_element_fc1e24166e7c2ecfd631f6b7a29579010c7532e4.so
