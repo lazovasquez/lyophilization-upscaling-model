@@ -20,6 +20,11 @@ Update. 2017.2.0 release on conda-forge features MUMPS direct solver, but lacks 
 
 https://fenicsproject.org/download/archive/
 
+https://jsdokken.com/dolfinx-tutorial/chapter2/ns_code1.html
+
+
+LATEST DEMOS
+https://fenicsproject.org/olddocs/dolfin/latest/
 
 1     python -m pip install numpy
 2     python -m pip install scipy
