@@ -5,4 +5,4 @@ Repository containing code for dynamic simulations a lyophilization scale-up mod
 
 ## Requirements
 
-The code requires Python 3.5 or higher, NumPy, SciPy, Matplotlib, math, and FEniCS. Also, the code requires hdf5, ipykernel.
+The code requires Python 3.5 or higher, NumPy, SciPy, Matplotlib, math, and FEniCS. Also, the code requires hdf5, ipykernel. Visualization in ParaView.
