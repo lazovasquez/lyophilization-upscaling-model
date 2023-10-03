@@ -1,4 +1,4 @@
-# A Lyophilization Scale-Up Model for the biopharmaceutical industry
+# A Lyophilization Upscaling Model for the biopharmaceutical industry
 
 Repository containing code for dynamic simulations a lyophilization scale-up model using finite element methods.
 
