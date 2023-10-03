@@ -1,6 +1,6 @@
 # A Lyophilization Upscaling Model for the biopharmaceutical industry
 
-Repository containing code for dynamic simulations a lyophilization scale-up model using finite element methods.
+Repository containing code for dynamic simulations of a lyophilization scale-up model using finite element methods.
 
 
 ## Requirements
@@ -10,18 +10,17 @@ The code requires Python 3.5 or higher, NumPy, SciPy, Matplotlib, math, and FEni
 
 # FEniCS on Anaconda: 
 
-To use our prebuilt Anaconda Python packages (Linux and Mac only), first install Anaconda, then run following commands in your terminal:
+To use our prebuilt Anaconda Python packages (Linux and Mac only), first install Anaconda, then run the following commands in your terminal:
+
 
 conda create -n fenicsproject -c conda-forge fenics
 source activate fenicsproject
 
-# To activate this environment, use: 
-#
-#     $ conda activate fenicsproject
-#                     
-# To deactivate an active environment, use
-#
-#     $ conda deactivate
+To activate this environment, use: 
+$ conda activate fenicsproject
+                    
+To deactivate an active environment, use
+``` $ conda deactivate ```
 
 For further information on using Anaconda, see the documentation.
 
